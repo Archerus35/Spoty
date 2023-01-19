@@ -5,3 +5,4 @@ dill
 scikit-learn
 streamlit
 pickle
+streamlit.components.v1
