@@ -3,5 +3,5 @@ sklearn
 numpy
 scikit-learn
 streamlit
-pickle
+pickle-mixin
 streamlit.components.v1
