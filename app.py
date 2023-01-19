@@ -21,7 +21,7 @@ def main():
      
     html_temp2 = """
 		<div style="background-color:royalblue;padding:10px;border-radius:10px">
-		<h2 style="color:white;text-align:center;">Canciones Spoti </h2>
+		<h2 style="color:white;text-align:center;">Canciones Spotify </h2>
         <h1 style="color:white;text-align:center;">Predicción de popularidad</h1>
 		</div>
 		"""
