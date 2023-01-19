@@ -31,13 +31,13 @@ def main():
     st.image(image, caption="")
     
     st.success("Todas las caracteristicas deben ir en números")
-    acousticness = st.text_input("Acustica","Escribe aqui")
-    danceability = st.text_input("Bailable","Escribe aqui")
-    duration_ms = st.text_input("Duracion","Escribe aqui")
-    energy = st.text_input("Ritmo","Escribe aqui")
-    loudness = st.text_input("Ruidoso","Escribe aqui")
-    speechiness = st.text_input("Más hablada","Escribe aqui")
-    valence = st.text_input("Balance","Escribe aqui")
+    acousticness = st.text_input("Acustica(0-10)","")
+    danceability = st.text_input("Bailable(0-10)","")
+    duration_ms = st.text_input("Duracion(0-999999)","")
+    energy = st.text_input("Ritmo(0-10)","")
+    loudness = st.text_input("Ruidoso(-1,-100)","")
+    speechiness = st.text_input("Más hablada(0-10)","")
+    valence = st.text_input("Balance(0-10)","")
     result=""
 
     if st.button("Prediccion"):
